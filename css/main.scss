@@ -356,7 +356,7 @@ header{
     #section-end{
         .content-wrap{
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(calc(100%/4), 2fr));
+            grid-template-columns: repeat(auto-fit, minmax(calc(100%/4), 2fr));      //can fix, responsive without media
         }
     }
     footer{
